@@ -1,0 +1,1 @@
+console.log('siema! To pierwsza strona Huberta');
