@@ -17,43 +17,55 @@
 		<title>Strona Huberta Krześlaka</title>
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<h1>Hubert Krześlak - strona domowa</h1>
-			<nav>
-				<a href="gallery.html">Galeria</a>
-				<a href="kontakt.html">Kontakt</a>
+			<nav class="header_nav">
+				<a
+					class="header__nav__item"
+					href="gallery.html"
+					>Galeria</a
+				>
+				<a
+					class="header__nav__item"
+					href="kontakt.html"
+					>Kontakt</a
+				>
 			</nav>
 		</header>
 		<main>
-			<section>
-				<h2>Klika słów o mnie:</h2>
-				<p>
-					To jest strona o mnie i o mojej nauce programowania. Będę tu opisywał
-					swoje postępy. Poza nauką frontendu pracuję w salonie samochodowym i
-					uwielbiam wypady w plener. W galerii kilka zdjęć z moich spacerów.
-				</p>
-			</section>
+			<h2>Klika słów o mnie:</h2>
+			<article class="aboutMe">
+				To jest strona o mnie i o mojej nauce programowania. Będę tu opisywał
+				swoje postępy. Poza nauką frontendu pracuję w salonie samochodowym i
+				uwielbiam wypady w plener. W galerii kilka zdjęć z moich spacerów.
+			</article>
 
-			<section class="etapyNauki">
-				<h3 class="lessonHead">1 - HTML - struktura i treść strony</h3>
-				<p>
+			<section class="lessonSteps">
+				<h3 class="lessonSteps__header">1 - HTML - struktura i treść strony</h3>
+				<article class="lessonSteps__article">
 					Początek nauki to poznanie podstaw HTML. Budujemy strukturę strony i
 					opakowujemy jej treść.
-				</p>
-				<h3 class="lessonHead">2 - CSS - Kolorowanki i malowanki</h3>
-				<p>
+				</article>
+				<h3 class="lessonSteps__header">2 - CSS - Kolorowanki i malowanki</h3>
+				<article class="lessonSteps__article">
 					W drugiej etapie zgłębiam tajniki stylowania w css. Kolorowanki i
 					malowanki. Nadajemy stronie wygląd.
-				</p>
-				<h3 class="lessonHead">3 - magia JS - to się rusza!</h3>
-				<p>
+				</article>
+				<h3 class="lessonSteps__header">3 - magia JS - to się rusza!</h3>
+				<article class="lessonSteps__article">
 					Lekcja trzecia to podstawy JavaScriptu. Dodajemy interakcje z
 					użytkownikiem.
-				</p>
+				</article>
 			</section>
+
+			<p class="bem--js"></p>
 		</main>
 		<footer>
 			<p>Moja pierwsza strona! Wrzesień 2024</p>
 		</footer>
+		<script
+			defer
+			src="main.js"
+		></script>
 	</body>
 </html>
